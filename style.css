@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.firstpage{
+    background-image: url(pink\ bg4.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    background-color:rgba(248, 125, 232, 0.856);
+    border: solid rgb(255, 255, 255) 1px;
+    height: 10vh;
+    width: 100vw;
+}
+
+.logo{
+    float:left;
+    padding:2px;
+}
+
+#links a{
+    text-decoration: none;
+    border: rgb(255, 255, 255) solid 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    transition: .4s;
+    background-color: rgb(255, 67, 224);
+}
+
+.box{
+    padding: 23px;
+    display: inline-flex;
+    float:right;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#links a:hover{opacity: .25; transition: .4s;}
+
+.banner{ 
+    background-color: rgba(248, 125, 232, 0.863);
+    border: ridge white 10px;
+    font-family: 'Courier New', Courier, monospace;
+    display:inline;
+    margin: 25px;
+    padding:10px;
+    position: absolute;
+    left: 12.5vh;
+    right: 12.5vh;
+    height: 65vh;
+    align-items: center;
+}
+.heading{
+    font-size:x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.name{
+    display: inline;
+    color:rgb(247, 58, 168);
+    font-style: unset;
+    font-family: cursive;
+}
+.font{
+    display: inline;
+    color:rgb(255, 255, 255);
+}
+.paragraph{
+    color:rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0vh;
+    left: 0vw;
+    background-color:rgba(248, 125, 232, 0.829);
+    border: white solid 1px;
+    height: 9vh;
+    width: 100vw;
+    
+}
+.credits{
+    padding: 10px;
+    margin: 10px;
+    color:white;
+    float:left;
+}
+
+.links2{
+    display:inline;
+}
+.links2 a{
+    float:right;
+    text-decoration: none;
+    margin: 10px;
+    padding: 1px;
+    opacity: 1;
+    transition: .4s;
+    height:5vh;
+    width: 5vw;
+}
+.links2 a:hover{opacity: .25; transition: .4s;}
+
+.circle{
+    border-radius: 75%;
+    border:white dashed 1px;
+    padding:3px;
+}
+
+.gallery{
+    font-family: cursive;
+    color: white;
+    width: 100vw;
+    margin-top: 7vh;
+}
+
+h2{
+    font-size: x-large;
+    width: 50vw;
+    height: 3vh;
+}
+
+.images{
+    height:215px;
+    width:200px;
+    display:inline;
+}
+
+.pix{
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pics img {
+    margin: 10px;
+    margin-top: 10vh;
+    width: 13.5vw;
+    height: 34vh;
+    border: 7px ridge white; 
+}
